@@ -11,7 +11,7 @@ class Header extends Component {
       <header className="header">
         <nav className="nav">
           <a href="/state" className="nav-link">
-            Stāvokļa diagramma
+            Stāvokļu diagramma
           </a>
           <a href="/" className="nav-link">
             UML diagrammas
