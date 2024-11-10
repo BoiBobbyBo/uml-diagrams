@@ -21,7 +21,7 @@ class Purpose extends Component {
           modelējot objektu dzīves ciklu un notikumu/pāreju attiecības.
         </p>
 
-        <div className="flex gap-2 flex-wrap justify-center">
+        <div className="flex gap-4 sm:gap-2 flex-wrap justify-center">
           {points.map((item, index) => {
             return <Card key={index} title={item.title} desc={item.desc} />;
           })}
