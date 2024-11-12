@@ -17,8 +17,9 @@ class Purpose extends Component {
       <div className="flex flex-col gap-6">
         <h3 className="font-semibold text-2xl">Lietošanas mērķi</h3>
         <p className="text-lg">
-          Galvenais mērķis ir attēlot un analizēt sistēmas dinamisko uzvedību,
-          modelējot objektu dzīves ciklu un notikumu/pāreju attiecības.
+          Galvenais mērķis ir modelēt objekta uzvedību, izprast pārejas starp
+          stāvokļiem un attēlot sarežģītas dzīves cikla un notikumu vadītas
+          sistēmas
         </p>
 
         <div className="flex gap-4 sm:gap-2 flex-wrap justify-center">

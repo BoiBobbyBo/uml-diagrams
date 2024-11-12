@@ -3,6 +3,7 @@ import { PureComponent as Component } from "react";
 import About from "./components/about/About";
 import Purpose from "./components/purpose/Purpose";
 import UseCases from "./components/useCases/UseCases";
+import Elements from "./components/elements/Elements";
 
 class StatePage extends Component {
   constructor(props) {
@@ -24,6 +25,7 @@ class StatePage extends Component {
         <About />
         <Purpose />
         <UseCases />
+        <Elements />
       </div>
     );
   }

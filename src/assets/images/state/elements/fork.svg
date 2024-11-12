@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="66.145836mm"
+   height="23.812531mm"
+   viewBox="0 0 66.145836 23.812531"
+   version="1.1"
+   id="svg1"
+   sodipodi:docname="fork.svg"
+   inkscape:version="1.4 (86a8ad7, 2024-10-11)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     inkscape:zoom="0.7349537"
+     inkscape:cx="148.98898"
+     inkscape:cy="15.647244"
+     inkscape:window-width="1920"
+     inkscape:window-height="1027"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs1" />
+  <g
+     inkscape:label="Слой 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-67.080416,-64.111665)">
+    <g
+       id="g48"
+       transform="matrix(0.26458333,0,0,0.26458333,-1.71125,-7.3252833)">
+      <path
+         d="M 260,314 H 510"
+         fill="none"
+         stroke="#000000"
+         stroke-width="8"
+         stroke-miterlimit="10"
+         pointer-events="all"
+         id="path47" />
+    </g>
+    <g
+       data-cell-id="fypzQI3--4M-04oQKmWJ-33"
+       id="g55"
+       transform="matrix(0.26458333,0,0,0.26458333,-1.71125,-7.3252833)">
+      <g
+         id="g54">
+        <path
+           d="m 320,318 v 35.63"
+           fill="none"
+           stroke="#000000"
+           stroke-miterlimit="10"
+           pointer-events="stroke"
+           id="path53" />
+        <path
+           d="m 320,358.88 -3.5,-7 3.5,1.75 3.5,-1.75 z"
+           fill="#000000"
+           stroke="#000000"
+           stroke-miterlimit="10"
+           pointer-events="all"
+           id="path54" />
+      </g>
+    </g>
+    <g
+       data-cell-id="fypzQI3--4M-04oQKmWJ-34"
+       id="g57"
+       transform="matrix(0.26458333,0,0,0.26458333,-1.71125,-7.3252833)">
+      <g
+         id="g56">
+        <path
+           d="m 450,318 v 35.63"
+           fill="none"
+           stroke="#000000"
+           stroke-miterlimit="10"
+           pointer-events="stroke"
+           id="path55" />
+        <path
+           d="m 450,358.88 -3.5,-7 3.5,1.75 3.5,-1.75 z"
+           fill="#000000"
+           stroke="#000000"
+           stroke-miterlimit="10"
+           pointer-events="all"
+           id="path56" />
+      </g>
+    </g>
+    <g
+       data-cell-id="fypzQI3--4M-04oQKmWJ-39"
+       id="g61"
+       transform="matrix(0.26458333,0,0,0.26458333,-1.71125,-7.3252833)">
+      <g
+         id="g60">
+        <path
+           d="m 385,270 -0.14,33.63"
+           fill="none"
+           stroke="#000000"
+           stroke-miterlimit="10"
+           pointer-events="stroke"
+           id="path59" />
+        <path
+           d="m 384.83,308.88 -3.47,-7.01 3.5,1.76 3.5,-1.73 z"
+           fill="#000000"
+           stroke="#000000"
+           stroke-miterlimit="10"
+           pointer-events="all"
+           id="path60" />
+      </g>
+    </g>
+  </g>
+</svg>
