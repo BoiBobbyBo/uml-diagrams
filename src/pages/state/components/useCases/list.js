@@ -10,5 +10,4 @@ export const problems = [
   "Stāvokļa pāreju izsekošana",
   "Notikumu vadītas loģikas pārvaldība",
   "Stāvokļa izmaiņu konsekvences nodrošināšana",
-  "Komunikācijas uzlabošana",
 ];

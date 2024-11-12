@@ -4,6 +4,7 @@ import About from "./components/about/About";
 import Purpose from "./components/purpose/Purpose";
 import UseCases from "./components/useCases/UseCases";
 import Elements from "./components/elements/Elements";
+import Examples from "./components/examples/Examples";
 
 class StatePage extends Component {
   constructor(props) {
@@ -26,6 +27,7 @@ class StatePage extends Component {
         <Purpose />
         <UseCases />
         <Elements />
+        <Examples />
       </div>
     );
   }
