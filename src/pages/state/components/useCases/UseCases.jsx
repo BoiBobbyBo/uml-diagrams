@@ -24,7 +24,7 @@ class UseCases extends Component {
               {problems.map((item, index) => {
                 return (
                   <li key={index} className="w-full list-disc">
-                    {item.title}
+                    {item}
                   </li>
                 );
               })}
@@ -35,7 +35,7 @@ class UseCases extends Component {
 
           <div className="basis-1/2 flex lg:flex-col flex-wrap lg:flex-nowrap gap-2 justify-center lg:justify-start">
             {cases.map((item, index) => {
-              return <Card key={index} title={item.title} />;
+              return <Card key={index} title={item} />;
             })}
           </div>
         </div>

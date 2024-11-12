@@ -1,32 +1,14 @@
 export const cases = [
-  {
-    title: "Interfeisa uzvedības modelēšana",
-  },
-  {
-    title: "Klases uzvedības modelēšana",
-  },
-  {
-    title: "Objektu sadarbības uzvedības modelēšana",
-  },
-  {
-    title: "Objekta notikuma sakārtotas uzvedības modelēšana",
-  },
+  "Interfeisa uzvedības modelēšana",
+  "Klases uzvedības modelēšana",
+  "Objektu sadarbības uzvedības modelēšana",
+  "Objekta notikuma sakārtotas uzvedības modelēšana",
 ];
 
 export const problems = [
-  {
-    title: "Sarežģītas sistēmas uzvedības noskaidrošana",
-  },
-  {
-    title: "Stāvokļa pāreju izsekošana",
-  },
-  {
-    title: "Notikumu vadītas loģikas pārvaldība",
-  },
-  {
-    title: "Stāvokļa izmaiņu konsekvences nodrošināšana",
-  },
-  {
-    title: "Komunikācijas uzlabošana",
-  },
+  "Sarežģītas sistēmas uzvedības noskaidrošana",
+  "Stāvokļa pāreju izsekošana",
+  "Notikumu vadītas loģikas pārvaldība",
+  "Stāvokļa izmaiņu konsekvences nodrošināšana",
+  "Komunikācijas uzlabošana",
 ];

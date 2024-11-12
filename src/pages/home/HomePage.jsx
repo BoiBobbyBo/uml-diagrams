@@ -1,4 +1,7 @@
 import { PureComponent as Component } from "react";
+import About from "./components/about/About";
+import Types from "./components/types/Types";
+import Top from "./components/top/Top";
 
 class HomePage extends Component {
   constructor(props) {
@@ -6,7 +9,17 @@ class HomePage extends Component {
   }
 
   render() {
-    return <div>UML diagrams</div>;
+    return (
+      <div className="flex flex-col gap-16">
+        <h1 className="mt-28 sm:mt-20 font-semibold text-4xl sm:text-6xl">
+          UML diagrammas
+        </h1>
+
+        <About />
+        <Types />
+        <Top />
+      </div>
+    );
   }
 }
 
