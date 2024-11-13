@@ -1,6 +1,7 @@
 import { PureComponent as Component } from "react";
 
 import stateLogin from "../../../../assets/images/state/examples/state_login.svg";
+import stateDoor from "../../../../assets/images/state/examples/state_door.png";
 
 const propTypes = {};
 
@@ -18,6 +19,10 @@ class Examples extends Component {
 
         <div className="flex gap-6 justify-center">
           <img src={stateLogin} className="border-4 border-solid rounded-xl p-6 w-full" />
+        </div>
+
+        <div className="flex gap-6 justify-center">
+          <img src={stateDoor} className="border-4 border-solid rounded-xl p-6 w-full" />
         </div>
       </div>
     );

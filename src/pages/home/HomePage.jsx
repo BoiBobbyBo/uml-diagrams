@@ -16,7 +16,6 @@ class HomePage extends Component {
         <About />
         <Types />
         <Top />
-        <span className="fixed bottom-0 right-0 text-gray-200 pr-20">Reinis palidzeja :)</span>
       </div>
     );
   }
