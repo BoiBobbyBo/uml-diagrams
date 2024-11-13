@@ -14,7 +14,7 @@ class ComponentPage extends Component {
 
   render() {
     return ( 
-      <div style={{ textAlign: "center", padding: "3rem 0" }}>
+      <div style={{ textAlign: "center", backgroundColor: 'white', padding: "3rem 0" }}>
 
     <h1  style={{padding: "2rem 0 1rem 0", fontSize: "3rem", fontWeight: "bold",
     }}>Komponenšu diagramma</h1>
