@@ -1,5 +1,7 @@
 import { PureComponent as Component } from "react";
 
+import stateLogin from "../../../../assets/images/state/examples/state_login.svg";
+
 const propTypes = {};
 
 const defaultProps = {};
@@ -15,7 +17,7 @@ class Examples extends Component {
         <h3 className="font-semibold text-2xl">Piemēri</h3>
 
         <div className="flex gap-6 justify-center">
-          <img src="/assets/images/state/examples/state_login.svg" className="border-4 border-solid rounded-xl p-6 w-full" />
+          <img src={stateLogin} className="border-4 border-solid rounded-xl p-6 w-full" />
         </div>
       </div>
     );
