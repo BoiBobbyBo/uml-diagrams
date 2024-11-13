@@ -43,7 +43,7 @@ class Card extends Component {
         <p
           className={`${
             hover ? "block" : "sm:hidden"
-          } z-10 sm:absolute bottom-0 left-1/2 sm:translate-x-[-50%] sm:w-[300px] md:w-[345px] sm:max-h-max bg-white border-t-0 border-4 sm:border-2 border-solid p-3 rounded-b-xl sm:rounded-none`}
+          } z-10 sm:absolute bottom-0 left-1/2 sm:translate-x-[-50%] sm:w-[305px] xl:w-[345px] sm:max-h-max bg-white border-t-0 border-4 sm:border-2 border-solid p-3 rounded-b-xl sm:rounded-none`}
           dangerouslySetInnerHTML={{ __html: content.desc }}
         />
       </div>

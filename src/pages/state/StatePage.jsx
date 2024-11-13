@@ -5,7 +5,7 @@ import Purpose from "./components/purpose/Purpose";
 import UseCases from "./components/useCases/UseCases";
 import Elements from "./components/elements/Elements";
 import Examples from "./components/examples/Examples";
-import Test from "../../components/test/test";
+import Test from "../../components/test/Test";
 
 class StatePage extends Component {
   constructor(props) {
@@ -29,7 +29,7 @@ class StatePage extends Component {
         <UseCases />
         <Elements />
         <Examples />
-        <Test />
+        <Test option="state" />
       </div>
     );
   }

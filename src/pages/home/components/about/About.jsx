@@ -14,8 +14,9 @@ class About extends Component {
       <div className="flex flex-col gap-6">
         <h3 className="font-semibold text-2xl">Kas ir UML diagrammas?</h3>
         <p className="text-lg">
-          Vizuāli rīki, ko izmanto, lai attēlotu sistēmas struktūru, uzvedību un
-          mijiedarbību. <br />
+          UML (Unified Modeling Language) diagrammas ir vizuāli rīki, ko
+          izmanto, lai attēlotu sistēmas struktūru, uzvedību un mijiedarbību.{" "}
+          <br />
           Tie palīdz skaidri parādīt sistēmas dizainu, funkcionalitāti un
           procesus
         </p>

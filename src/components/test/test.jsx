@@ -1,7 +1,9 @@
 import { PureComponent as Component } from "react";
-import { questions } from "./qstate";
+import PropTypes from "prop-types";
 
-const propTypes = {};
+import { state, uml } from "./testQuestions";
+
+const propTypes = { option: PropTypes.string };
 
 const defaultProps = {};
 
@@ -15,7 +17,16 @@ class Test extends Component {
     };
   }
 
-  handleNextQuestion = () => {
+  getQuestions(option) {
+    const optionsMap = {
+      state: state,
+      uml: uml,
+    };
+
+    return optionsMap[option] || [];
+  }
+
+  handleNextQuestion = (questions) => {
     this.setState((prevState) => ({
       currentQuestionIndex:
         (prevState.currentQuestionIndex + 1) % questions.length,
@@ -29,10 +40,13 @@ class Test extends Component {
 
   render() {
     const { currentQuestionIndex, selectedAnswer } = this.state;
+    const { option } = this.props;
+
+    const questions = this.getQuestions(option);
     const currentQuestion = questions[currentQuestionIndex];
 
     return (
-      <div className="flex flex-col gap-6">
+      <div className="flex flex-col gap-6 border-4 rounded-xl py-8 px-4">
         <h3 className="font-semibold text-2xl">Tests</h3>
 
         <div className="flex flex-col items-center gap-4">
@@ -42,7 +56,7 @@ class Test extends Component {
             </h2>
             {selectedAnswer !== null && (
               <button
-                onClick={this.handleNextQuestion}
+                onClick={() => this.handleNextQuestion(questions)}
                 className="bg-[#eee] hidden sm:block"
               >
                 Nākamais jautājums
@@ -72,6 +86,7 @@ class Test extends Component {
                   style={{
                     backgroundColor: buttonColor,
                   }}
+                  disabled={selectedAnswer !== null}
                 >
                   {option.answer}
                 </button>
@@ -81,7 +96,7 @@ class Test extends Component {
 
           {selectedAnswer !== null && (
             <button
-              onClick={this.handleNextQuestion}
+              onClick={() => this.handleNextQuestion(questions)}
               className="self-stretch bg-[#eee] block sm:hidden"
             >
               Nākamais jautājums
