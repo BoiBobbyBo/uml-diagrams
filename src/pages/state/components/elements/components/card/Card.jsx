@@ -28,7 +28,7 @@ class Card extends Component {
 
     return (
       <div
-        className="flex flex-col sm:gap-3 relative"
+        className="flex flex-col sm:gap-3 relative sm:hover:scale-105 transition-all duration-300 ease-in-out"
         onMouseEnter={this.onHover}
         onMouseLeave={this.onLeave}
       >

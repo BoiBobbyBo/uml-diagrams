@@ -7,7 +7,7 @@ class Header extends Component {
 
   render() {
     return (
-      <header className="flex justify-center w-full fixed top-0 left-0 bg-[#f8f9fa] py-2 px-5 z-50">
+      <header className="flex justify-center w-full fixed top-0 left-0 bg-[#eee] py-2 px-5 z-50">
         <nav className="flex flex-wrap gap-x-10 gap-y-2 justify-center">
           <a
             href="/state"

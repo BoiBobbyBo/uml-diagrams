@@ -13,7 +13,7 @@ class StatePage extends Component {
 
   render() {
     return (
-      <div className="flex flex-col gap-16">
+      <div className="flex flex-col gap-16 bg-white px-8 pb-8">
         <div className="mt-24 sm:mt-16">
           <h1 className="my-6 font-semibold text-4xl sm:text-6xl">
             Stāvokļu diagramma

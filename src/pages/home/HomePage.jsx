@@ -10,7 +10,7 @@ class HomePage extends Component {
 
   render() {
     return (
-      <div className="flex flex-col gap-16">
+      <div className="flex flex-col gap-16 bg-white px-8 pb-8">
         <h1 className="mt-28 sm:mt-20 font-semibold text-4xl sm:text-6xl">
           UML diagrammas
         </h1>
