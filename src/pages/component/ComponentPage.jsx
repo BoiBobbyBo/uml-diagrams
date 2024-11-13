@@ -5,6 +5,7 @@ import myImage3 from './component3.drawio.png';
 import myImage4 from './1.png';
 import myImage5 from './2.png';
 import myImage6 from './3.png';
+import compLogin from "../../assets/images/component/examples/component_login.svg";
 
 class ComponentPage extends Component {
   constructor(props) {
@@ -13,7 +14,7 @@ class ComponentPage extends Component {
 
   render() {
     return ( 
-      <div style={{ textAlign: "center", padding: "3rem 0" }}>
+      <div style={{ textAlign: "center", backgroundColor: 'white', padding: "3rem 0" }}>
 
     <h1  style={{padding: "2rem 0 1rem 0", fontSize: "3rem", fontWeight: "bold",
     }}>Komponenšu diagramma</h1>
@@ -174,6 +175,21 @@ class ComponentPage extends Component {
     }}>Komponentes pamatdaļas/elementi</h1>
     <img
     src={myImage2} // Use the imported image
+    alt="Komponenšu diagramma example"
+    style={{
+      display: "block",
+      margin: "auto",
+      width: "900px",
+      height: "auto",
+      borderRadius: "10px",
+      boxShadow: "0 4px 8px rgba(0, 0, 0, 0.2)"
+    }}
+  />
+
+<h1 style={{padding: "3rem 0 1rem 0", fontSize: "2rem", fontWeight: "bold" ,
+    }}>Vēlviens diagrammas piemers</h1>
+<img
+    src={compLogin} // Use the imported image
     alt="Komponenšu diagramma example"
     style={{
       display: "block",
