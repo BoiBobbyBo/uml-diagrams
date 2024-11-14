@@ -2,7 +2,7 @@ import { PureComponent as Component } from "react";
 import About from "./components/about/About";
 import Types from "./components/types/Types";
 import Top from "./components/top/Top";
-import Test from "../../components/test/Test";
+import Test from "../../components/test/test";
 
 class HomePage extends Component {
   constructor(props) {
